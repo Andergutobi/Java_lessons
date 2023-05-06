@@ -512,12 +512,10 @@
               this.nombre = nombre;
               this.edad = edad;
             }
-        
             public void saludar() {
                 System.out.println("Hola, mi nombre es " + nombre + " y tengo " + edad + " años.");
             }
         }
-      
             Persona persona1 = new Persona("Juan", 30);
             persona1.saludar();
        </code>
@@ -550,13 +548,11 @@
       public class Persona {
         private String nombre;
         private int edad;
-        
         public Persona(String nombre, int edad) {
           this.nombre = nombre;
           this.edad = edad;
         }
-      }
-      
+      }  
       Persona persona1 = new Persona("Juan", 30);
       System.out.println(persona1.nombre);
     </code>
@@ -570,17 +566,14 @@
       public class Persona {
         private String nombre;
         private int edad;
-        
         public Persona(String nombre, int edad) {
           this.nombre = nombre;
           this.edad = edad;
         }
-        
         public void saludar() {
           System.out.println("Hola, mi nombre es " + nombre + " y tengo " + edad + " años.");
         }
       }
-      
       Persona persona1 = new Persona("Juan", 30);
       persona1.saludar();
     </code>
@@ -594,13 +587,11 @@
       public class Persona {
         private String nombre;
         private int edad;
-        
         public Persona(String nombre, int edad) {
           this.nombre = nombre;
           this.edad = edad;
         }
       }
-      
       Persona persona1 = new Persona("Juan", 30);
     </code>
 </tbody>
