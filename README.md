@@ -37,4 +37,4 @@
   <tr>
     <td>Clases y objetos</td>
     <td>Clases y objetos que se pueden definir y utilizar en Java</td>
-    <td>public class Persona {<br>&nbsp;&nbsp;&nbsp;&nbsp;private String nombre;<br>&nbsp;&nbsp;&nbsp;&nbsp;public Persona(String nombre) {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.nombre = nombre;<br>&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;public void saludar() {
+   
