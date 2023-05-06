@@ -5,7 +5,7 @@ EN PROCESO....
     <tr>
       <th>Tipo de dato</th>
       <th>Descripción</th>
-      <th>Ejemplo</th>
+      <th>Ejemplo de código</th>
     </tr>
   </thead>
   <tbody>
