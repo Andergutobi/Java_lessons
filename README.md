@@ -1,9 +1,20 @@
-<html>
-Este repositorio es de proyectos y ejercicios en Java para practicar y aprender.
-
-Para lo cual, espero que lo siguiente ayude....
-
-JAVA CHEATSHEET FOR ALL
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<p>Este repositorio es de proyectos y ejercicios en Java para practicar y aprender.</p>
+<p>Para lo cual, espero que lo siguiente ayude....</p>
+<p>JAVA CHEATSHEET FOR ALL</p>
 
 <h1>TIPOS DE DATOS</h1>
 <table>
@@ -181,7 +192,7 @@ JAVA CHEATSHEET FOR ALL
       </td>
     </tr>
     <tr>
-      <td>&gt;</td>
+      <td>&#62;</td>
       <td>Mayor que</td>
       <td>
         <pre>
@@ -191,6 +202,39 @@ JAVA CHEATSHEET FOR ALL
         </pre>
       </td>
     </tr>
+    <tr>
+        <td>&#60;</td>
+        <td>Menor que</td>
+        <td>
+          <pre>
+            int a = 5;
+            int b = 3;
+            System.out.println(a < b); // Imprime false
+          </pre>
+        </td>
+      </tr>
+      <tr>
+        <td>&#62;=</td>
+        <td>Mayor o igual que</td>
+        <td>
+          <pre>
+            int a = 5;
+            int b = 3;
+            System.out.println(a >= b); // Imprime true
+          </pre>
+        </td>
+      </tr>
+      <tr>
+        <td>&#60;=</td>
+        <td>Menor o igual que</td>
+        <td>
+          <pre>
+            int a = 5;
+            int b = 3;
+            System.out.println(a <= b); // Imprime true
+          </pre>
+        </td>
+      </tr>
   </tbody>
 </table>
 <h1>ESTRUCTURAS CONDICIONALES</h1>
@@ -642,4 +686,6 @@ JAVA CHEATSHEET FOR ALL
     </tr>
   </tbody>
 </table>
+
+</body>
 </html>
