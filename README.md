@@ -425,3 +425,120 @@ EN PROCESO....
     </tr>
   </tbody>
 </table>
+<h1>OBJETOS</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Concepto</th>
+      <th>Descripción</th>
+      <th>Ejemplo de código</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Objeto</td>
+      <td>Instancia de una clase que tiene un estado y un comportamiento definido por sus métodos.</td>
+      <td>
+        <pre>
+          public class Persona {
+            private String nombre;
+            private int edad;        
+          public Persona(String nombre, int edad) {
+          this.nombre = nombre;
+          this.edad = edad;
+        }
+        
+        public void saludar() {
+          System.out.println("Hola, mi nombre es " + nombre + " y tengo " + edad + " años.");
+        }
+      }
+      
+      Persona persona1 = new Persona("Juan", 30);
+      persona1.saludar();
+    </pre>
+  </td>
+</tr>
+<tr>
+  <td>Clase</td>
+  <td>Plantilla o modelo que define los atributos y métodos que tendrán los objetos de esa clase.</td>
+  <td>
+    <pre>
+      public class Persona {
+        private String nombre;
+        private int edad;
+        
+        public Persona(String nombre, int edad) {
+          this.nombre = nombre;
+          this.edad = edad;
+        }
+        
+        public void saludar() {
+          System.out.println("Hola, mi nombre es " + nombre + " y tengo " + edad + " años.");
+        }
+      }
+    </pre>
+  </td>
+</tr>
+<tr>
+  <td>Atributo</td>
+  <td>Variable que representa una característica o propiedad del objeto.</td>
+  <td>
+    <pre>
+      public class Persona {
+        private String nombre;
+        private int edad;
+        
+        public Persona(String nombre, int edad) {
+          this.nombre = nombre;
+          this.edad = edad;
+        }
+      }
+      
+      Persona persona1 = new Persona("Juan", 30);
+      System.out.println(persona1.nombre);
+    </pre>
+  </td>
+</tr>
+<tr>
+  <td>Método</td>
+  <td>Conjunto de instrucciones que definen el comportamiento de un objeto.</td>
+  <td>
+    <pre>
+      public class Persona {
+        private String nombre;
+        private int edad;
+        
+        public Persona(String nombre, int edad) {
+          this.nombre = nombre;
+          this.edad = edad;
+        }
+        
+        public void saludar() {
+          System.out.println("Hola, mi nombre es " + nombre + " y tengo " + edad + " años.");
+        }
+      }
+      
+      Persona persona1 = new Persona("Juan", 30);
+      persona1.saludar();
+    </pre>
+  </td>
+</tr>
+<tr>
+  <td>Constructor</td>
+  <td>Método especial que se llama al crear un objeto y se utiliza para inicializar los atributos del objeto.</td>
+  <td>
+    <pre>
+      public class Persona {
+        private String nombre;
+        private int edad;
+        
+        public Persona(String nombre, int edad) {
+          this.nombre = nombre;
+          this.edad = edad;
+        }
+      }
+      
+      Persona persona1 = new Persona("Juan", 30);
+    </pre>
+</tbody>
+</table>
