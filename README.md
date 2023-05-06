@@ -344,3 +344,84 @@ EN PROCESO....
     </tr>
   </tbody>
 </table>
+<table>
+  <thead>
+    <tr>
+      <th>Función</th>
+      <th>Descripción</th>
+      <th>Ejemplo de código</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>public static void</td>
+      <td>Define una función que no devuelve ningún valor.</td>
+      <td>
+        <pre>
+          public static void imprimirMensaje(String mensaje) {
+            System.out.println(mensaje);
+          }
+          imprimirMensaje("Hola, mundo!");
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>public static</td>
+      <td>Define una función que devuelve un valor.</td>
+      <td>
+        <pre>
+          public static int sumar(int a, int b) {
+            return a + b;
+          }
+          int resultado = sumar(2, 3);
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>void</td>
+      <td>Indica que la función no devuelve ningún valor.</td>
+      <td>
+        <pre>
+          public static void imprimirMensaje(String mensaje) {
+            System.out.println(mensaje);
+          }
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>Tipo de retorno</td>
+      <td>Indica el tipo de valor que devuelve la función.</td>
+      <td>
+        <pre>
+          public static int sumar(int a, int b) {
+            return a + b;
+          }
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>Parámetros</td>
+      <td>Valores que se pasan a la función para su uso dentro de ella.</td>
+      <td>
+        <pre>
+          public static int sumar(int a, int b) {
+            return a + b;
+          }
+          int resultado = sumar(2, 3);
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>Argumentos</td>
+      <td>Valores que se pasan a la función al llamarla.</td>
+      <td>
+        <pre>
+          public static void imprimirMensaje(String mensaje) {
+            System.out.println(mensaje);
+          }
+          imprimirMensaje("Hola, mundo!");
+        </pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
