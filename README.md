@@ -1,5 +1,10 @@
-EN PROCESO....
+Este repositorio es de proyectos y ejercicios en Java para practicar y aprender.
 
+Para lo cual, espero que lo siguiente ayude....
+
+JAVA CHEATSHEET FOR ALL
+
+<h1>TIPOS DE DATOS</h1>
 <table>
   <thead>
     <tr>
@@ -41,7 +46,7 @@ EN PROCESO....
     </tr>
   </tbody>
 </table>
-
+<h1>Operadores</h1>
 <table>
   <thead>
     <tr>
@@ -168,7 +173,7 @@ EN PROCESO....
     </tr>
   </tbody>
 </table>
-
+<h1>ESTRUCTURAS CONDICIONALES</h1>
 <table>
   <thead>
     <tr>
@@ -256,6 +261,7 @@ EN PROCESO....
     </tr>
   </tbody>
 </table>
+<h1>ESTRUCTURAS DE BUCLES</h1>
 <table>
   <thead>
     <tr>
@@ -344,6 +350,7 @@ EN PROCESO....
     </tr>
   </tbody>
 </table>
+<h1>FUNCIONES</h1>
 <table>
   <thead>
     <tr>
@@ -542,3 +549,77 @@ EN PROCESO....
     </pre>
 </tbody>
 </table>
+<h1>EXCEPCIONES</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Concepto</th>
+      <th>Descripción</th>
+      <th>Ejemplo de código</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Excepción</td>
+      <td>Evento que interrumpe el flujo normal del programa y que puede ser manejado por el código.</td>
+      <td>
+        <pre>
+          try {
+            int resultado = 10 / 0;
+          } catch (ArithmeticException e) {
+            System.out.println("Ha ocurrido un error: " + e.getMessage());
+          }
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>try-catch</td>
+      <td>Bloque de código que se utiliza para manejar excepciones. El código que puede lanzar una excepción se coloca dentro del bloque "try", mientras que el código que se ejecuta si se lanza una excepción se coloca dentro del bloque "catch".</td>
+      <td>
+        <pre>
+          try {
+            int resultado = 10 / 0;
+          } catch (ArithmeticException e) {
+            System.out.println("Ha ocurrido un error: " + e.getMessage());
+          }
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>finally</td>
+      <td>Bloque de código que se ejecuta siempre después de que se haya terminado de ejecutar el bloque "try" o "catch", independientemente de si se ha lanzado o no una excepción. Se utiliza para liberar recursos, como cerrar archivos o conexiones a bases de datos.</td>
+      <td>
+        <pre>
+          FileInputStream fis = null;
+          try {
+            fis = new FileInputStream("archivo.txt");
+            // Leer datos del archivo
+          } catch (IOException e) {
+            System.out.println("Ha ocurrido un error: " + e.getMessage());
+          } finally {
+            if (fis != null) {
+              try {
+                fis.close();
+              } catch (IOException e) {
+                System.out.println("No se pudo cerrar el archivo: " + e.getMessage());
+              }
+            }
+          }
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>throws</td>
+      <td>Palabra clave que se utiliza para declarar que un método puede lanzar una excepción y que debe ser manejada por el código que lo llame.</td>
+      <td>
+        <pre>
+          public void leerArchivo(String nombreArchivo) throws FileNotFoundException {
+            FileInputStream fis = new FileInputStream(nombreArchivo);
+            // Leer datos del archivo
+          }
+        </pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
