@@ -9,40 +9,59 @@ JAVA CHEATSHEET FOR ALL
   <thead>
     <tr>
       <th>Tipo de dato</th>
+      <th>Tamaño</th>
       <th>Descripción</th>
-      <th>Ejemplo de código</th>
+      <th>Ejemplo dd Código</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>text</td>
-      <td>Cadena de caracteres</td>
-      <td>&lt;p&gt;Este es un ejemplo de texto&lt;/p&gt;</td>
+      <td>byte</td>
+      <td>1 byte</td>
+      <td>Entero de 8 bits con signo. Se utiliza para almacenar valores enteros pequeños.</td>
+      <td>byte edad = 20;</td>
     </tr>
     <tr>
-      <td>number</td>
-      <td>Número</td>
-      <td>&lt;p&gt;El resultado es: &lt;span id="resultado"&gt;0&lt;/span&gt;&lt;/p&gt;</td>
+      <td>short</td>
+      <td>2 bytes</td>
+      <td>Entero de 16 bits con signo. Se utiliza para almacenar valores enteros pequeños o medianos.</td>
+      <td>short temperatura = -10;</td>
+    </tr>
+    <tr>
+      <td>int</td>
+      <td>4 bytes</td>
+      <td>Entero de 32 bits con signo. Se utiliza para almacenar valores enteros grandes.</td>
+      <td>int cantidad = 1000;</td>
+    </tr>
+    <tr>
+      <td>long</td>
+      <td>8 bytes</td>
+      <td>Entero de 64 bits con signo. Se utiliza para almacenar valores enteros muy grandes.</td>
+      <td>long poblacion = 1000000L;</td>
+    </tr>
+    <tr>
+      <td>float</td>
+      <td>4 bytes</td>
+      <td>Número de punto flotante de precisión simple. Se utiliza para almacenar valores con decimales.</td>
+      <td>float precio = 10.99f;</td>
+    </tr>
+    <tr>
+      <td>double</td>
+      <td>8 bytes</td>
+      <td>Número de punto flotante de precisión doble. Se utiliza para almacenar valores con decimales más precisos.</td>
+      <td>double salario = 2000.50;</td>
     </tr>
     <tr>
       <td>boolean</td>
-      <td>Valor verdadero/falso</td>
-      <td>&lt;input type="checkbox" name="opcion" value="true"&gt;</td>
+      <td>1 bit</td>
+      <td>Valor que indica verdadero o falso. Se utiliza para almacenar valores booleanos.</td>
+      <td>boolean esMayor = edad > 18;</td>
     </tr>
     <tr>
-      <td>date</td>
-      <td>Fecha</td>
-      <td>&lt;input type="date" name="fecha"&gt;</td>
-    </tr>
-    <tr>
-      <td>time</td>
-      <td>Hora</td>
-      <td>&lt;input type="time" name="hora"&gt;</td>
-    </tr>
-    <tr>
-      <td>color</td>
-      <td>Color</td>
-      <td>&lt;input type="color" name="color"&gt;</td>
+      <td>char</td>
+      <td>2 bytes</td>
+      <td>Carácter Unicode de 16 bits. Se utiliza para almacenar un único carácter.</td>
+      <td>char inicial = 'J';</td>
     </tr>
   </tbody>
 </table>
