@@ -520,9 +520,9 @@
       
         Persona persona1 = new Persona("Juan", 30);
         persona1.saludar();
-        </code>
-      </td>
-</tr>
+       </code>
+     </td>
+ </tr>
 <tr>
   <td>Clase</td>
   <td>Plantilla o modelo que define los atributos y métodos que tendrán los objetos de esa clase.</td>
