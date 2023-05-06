@@ -488,7 +488,7 @@ JAVA CHEATSHEET FOR ALL
   <td>Clase</td>
   <td>Plantilla o modelo que define los atributos y métodos que tendrán los objetos de esa clase.</td>
   <td>
-    <code>
+    <pre>
       public class Persona {
         private String nombre;
         private int edad;
@@ -502,7 +502,7 @@ JAVA CHEATSHEET FOR ALL
           System.out.println("Hola, mi nombre es " + nombre + " y tengo " + edad + " años.");
         }
       }
-    </code>
+    </pre>
   </td>
 </tr>
 <tr>
