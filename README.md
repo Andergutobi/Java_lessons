@@ -518,8 +518,8 @@
             }
         }
       
-        Persona persona1 = new Persona("Juan", 30);
-        persona1.saludar();
+            Persona persona1 = new Persona("Juan", 30);
+            persona1.saludar();
        </code>
      </td>
  </tr>
@@ -531,17 +531,15 @@
       public class Persona {
         private String nombre;
         private int edad;
-        
         public Persona(String nombre, int edad) {
           this.nombre = nombre;
           this.edad = edad;
-        }
-        
-        public void saludar() {
-          System.out.println("Hola, mi nombre es " + nombre + " y tengo " + edad + " años.");
-        }
-      }
-    </code>
+          }
+           public void saludar() {
+              System.out.println("Hola, mi nombre es " + nombre + " y tengo " + edad + " años.");
+            }
+          }
+   </code>
   </td>
 </tr>
 <tr>
