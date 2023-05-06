@@ -256,3 +256,91 @@ EN PROCESO....
     </tr>
   </tbody>
 </table>
+<table>
+  <thead>
+    <tr>
+      <th>Bucle</th>
+      <th>Descripción</th>
+      <th>Ejemplo de código</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>while</td>
+      <td>Repite un bloque de código mientras una expresión booleana sea verdadera.</td>
+      <td>
+        <pre>
+          int i = 0;
+          while (i &lt; 5) {
+            System.out.println(i);
+            i++;
+          }
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>do-while</td>
+      <td>Repite un bloque de código al menos una vez, y luego mientras una expresión booleana sea verdadera.</td>
+      <td>
+        <pre>
+          int i = 0;
+          do {
+            System.out.println(i);
+            i++;
+          } while (i &lt; 5);
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>for</td>
+      <td>Repite un bloque de código para un rango específico de valores.</td>
+      <td>
+        <pre>
+          for (int i = 0; i &lt; 5; i++) {
+            System.out.println(i);
+          }
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>for-each</td>
+      <td>Repite un bloque de código para cada elemento en una colección o arreglo.</td>
+      <td>
+        <pre>
+          int[] numeros = {1, 2, 3, 4, 5};
+          for (int numero : numeros) {
+            System.out.println(numero);
+          }
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>break</td>
+      <td>Termina inmediatamente un bucle.</td>
+      <td>
+        <pre>
+          for (int i = 0; i &lt; 10; i++) {
+            if (i == 5) {
+              break;
+            }
+            System.out.println(i);
+          }
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>continue</td>
+      <td>Salta a la siguiente iteración de un bucle.</td>
+      <td>
+        <pre>
+          for (int i = 0; i &lt; 10; i++) {
+            if (i % 2 == 0) {
+              continue;
+            }
+            System.out.println(i);
+          }
+        </pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
