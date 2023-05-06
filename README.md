@@ -11,7 +11,7 @@ JAVA CHEATSHEET FOR ALL
       <th>Tipo de dato</th>
       <th>Tamaño</th>
       <th>Descripción</th>
-      <th>Ejemplo dd Código</th>
+      <th>Ejemplo de Código</th>
     </tr>
   </thead>
   <tbody>
