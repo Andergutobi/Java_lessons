@@ -4,12 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        *{
-            text-align: center;
-        }
-    </style>
 </head>
 <body>
 <p>Este repositorio es de proyectos y ejercicios en Java para practicar y aprender.</p>
@@ -511,23 +505,23 @@
       <td>Instancia de una clase que tiene un estado y un comportamiento definido por sus métodos.</td>
       <td>
         <code>
-          public class Persona {
+        public class Persona {
             private String nombre;
             private int edad;        
-          public Persona(String nombre, int edad) {
-          this.nombre = nombre;
-          this.edad = edad;
-          }
+            public Persona(String nombre, int edad) {
+              this.nombre = nombre;
+              this.edad = edad;
+            }
         
-        public void saludar() {
-          System.out.println("Hola, mi nombre es " + nombre + " y tengo " + edad + " años.");
+            public void saludar() {
+                System.out.println("Hola, mi nombre es " + nombre + " y tengo " + edad + " años.");
+            }
         }
-      }
       
-      Persona persona1 = new Persona("Juan", 30);
-      persona1.saludar();
-    </code>
-  </td>
+        Persona persona1 = new Persona("Juan", 30);
+        persona1.saludar();
+        </code>
+      </td>
 </tr>
 <tr>
   <td>Clase</td>
