@@ -168,3 +168,91 @@ EN PROCESO....
     </tr>
   </tbody>
 </table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Condicional</th>
+      <th>Descripción</th>
+      <th>Ejemplo de código</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>if</td>
+      <td>Evalúa una expresión booleana y ejecuta un bloque de código si es verdadera.</td>
+      <td>
+        <pre>
+          int a = 5;
+          if (a &gt; 0) {
+            System.out.println("a es positivo");
+          }
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>if-else</td>
+      <td>Evalúa una expresión booleana y ejecuta un bloque de código si es verdadera, o un bloque diferente si es falsa.</td>
+      <td>
+        <pre>
+          int a = 5;
+          if (a % 2 == 0) {
+            System.out.println("a es par");
+          } else {
+            System.out.println("a es impar");
+          }
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>else-if</td>
+      <td>Evalúa una expresión booleana y ejecuta un bloque de código si es verdadera, o pasa a evaluar otra expresión si no lo es.</td>
+      <td>
+        <pre>
+          int a = 5;
+          if (a &lt; 0) {
+            System.out.println("a es negativo");
+          } else if (a == 0) {
+            System.out.println("a es cero");
+          } else {
+            System.out.println("a es positivo");
+          }
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>switch</td>
+      <td>Evalúa una expresión y ejecuta un bloque de código dependiendo del valor resultante.</td>
+      <td>
+        <pre>
+          int day = 2;
+          switch (day) {
+            case 1:
+              System.out.println("Lunes");
+              break;
+            case 2:
+              System.out.println("Martes");
+              break;
+            case 3:
+              System.out.println("Miércoles");
+              break;
+            default:
+              System.out.println("Día desconocido");
+              break;
+          }
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>operador ternario</td>
+      <td>Evalúa una expresión booleana y devuelve un valor dependiendo del resultado.</td>
+      <td>
+        <pre>
+          int a = 5;
+          String resultado = (a % 2 == 0) ? "par" : "impar";
+          System.out.println(resultado); // Imprime "impar"
+        </pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
