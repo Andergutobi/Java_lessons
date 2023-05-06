@@ -466,7 +466,7 @@ JAVA CHEATSHEET FOR ALL
       <td>Objeto</td>
       <td>Instancia de una clase que tiene un estado y un comportamiento definido por sus métodos.</td>
       <td>
-        <pre>
+        <code>
           public class Persona {
             private String nombre;
             private int edad;        
@@ -482,14 +482,14 @@ JAVA CHEATSHEET FOR ALL
       
       Persona persona1 = new Persona("Juan", 30);
       persona1.saludar();
-    </pre>
+    </code>
   </td>
 </tr>
 <tr>
   <td>Clase</td>
   <td>Plantilla o modelo que define los atributos y métodos que tendrán los objetos de esa clase.</td>
   <td>
-    <pre>
+    <code>
       public class Persona {
         private String nombre;
         private int edad;
@@ -503,14 +503,14 @@ JAVA CHEATSHEET FOR ALL
           System.out.println("Hola, mi nombre es " + nombre + " y tengo " + edad + " años.");
         }
       }
-    </pre>
+    </code>
   </td>
 </tr>
 <tr>
   <td>Atributo</td>
   <td>Variable que representa una característica o propiedad del objeto.</td>
   <td>
-    <pre>
+    <code>
       public class Persona {
         private String nombre;
         private int edad;
@@ -523,14 +523,14 @@ JAVA CHEATSHEET FOR ALL
       
       Persona persona1 = new Persona("Juan", 30);
       System.out.println(persona1.nombre);
-    </pre>
+    </code>
   </td>
 </tr>
 <tr>
   <td>Método</td>
   <td>Conjunto de instrucciones que definen el comportamiento de un objeto.</td>
   <td>
-    <pre>
+    <code>
       public class Persona {
         private String nombre;
         private int edad;
@@ -547,14 +547,14 @@ JAVA CHEATSHEET FOR ALL
       
       Persona persona1 = new Persona("Juan", 30);
       persona1.saludar();
-    </pre>
+    </code>
   </td>
 </tr>
 <tr>
   <td>Constructor</td>
   <td>Método especial que se llama al crear un objeto y se utiliza para inicializar los atributos del objeto.</td>
   <td>
-    <pre>
+    <code>
       public class Persona {
         private String nombre;
         private int edad;
@@ -566,7 +566,7 @@ JAVA CHEATSHEET FOR ALL
       }
       
       Persona persona1 = new Persona("Juan", 30);
-    </pre>
+    </code>
 </tbody>
 </table>
 <h1>EXCEPCIONES</h1>
@@ -583,26 +583,26 @@ JAVA CHEATSHEET FOR ALL
       <td>Excepción</td>
       <td>Evento que interrumpe el flujo normal del programa y que puede ser manejado por el código.</td>
       <td>
-        <pre>
+        <code>
           try {
             int resultado = 10 / 0;
           } catch (ArithmeticException e) {
             System.out.println("Ha ocurrido un error: " + e.getMessage());
           }
-        </pre>
+        </code>
       </td>
     </tr>
     <tr>
       <td>try-catch</td>
       <td>Bloque de código que se utiliza para manejar excepciones. El código que puede lanzar una excepción se coloca dentro del bloque "try", mientras que el código que se ejecuta si se lanza una excepción se coloca dentro del bloque "catch".</td>
       <td>
-        <pre>
+        <code>
           try {
             int resultado = 10 / 0;
           } catch (ArithmeticException e) {
             System.out.println("Ha ocurrido un error: " + e.getMessage());
           }
-        </pre>
+        </code>
       </td>
     </tr>
     <tr>
