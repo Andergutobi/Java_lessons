@@ -225,7 +225,7 @@
           <pre>
             int a = 5;
             int b = 3;
-            System.out.println(a <= b); // Imprime true
+            System.out.println(a <= b); // Imprime false
           </pre>
         </td>
       </tr>
